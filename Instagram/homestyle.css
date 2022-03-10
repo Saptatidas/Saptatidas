@@ -1,0 +1,77 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: no-repeat rgb(254, 255, 255);
+    background-size: cover;
+    width:100%;
+    height: 100%;
+}
+
+/* navbar ------------------------------------->>> */
+
+.navbar-nav {
+    margin: auto;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(to left ,rgb(248, 204, 7),rgb(202, 1, 209) ,rgb(202, 1, 209),rgb(248, 204, 7));
+}
+.navbar-brand img{
+    height: 2rem;
+}
+.navbar button{
+    margin-right: 0.5rem;
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    transform: scale(1.2);
+}
+
+/* about ------------------------------------>>> */
+
+#about h1 {
+    text-transform: uppercase;
+}
+#about p{
+    font-size: 1.5rem;
+}
+.card-btn-div{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* carosol --------------------------------------->>> */
+
+#carosol img{
+    height: 50vh;
+}
+#carosol h1{
+text-transform: uppercase;
+}
+
+
+
+/* footer --------------------------------------->>> */
+
+footer{
+    background-color: rgb(44, 51, 51);
+    color: white;
+    padding: 1rem;
+}
+
+
+
+
